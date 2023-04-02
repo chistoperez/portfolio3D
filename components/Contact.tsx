@@ -9,7 +9,7 @@ import { SectionWrapper } from "@/HOC";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
-  const formRef = useRef();
+  const formRef = useRef<any>();
   const [form, setForm] = useState({
     name: "",
     email: "",
