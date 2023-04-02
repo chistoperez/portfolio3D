@@ -1,7 +1,8 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { styles } from "@/styles/styles";
 import { ComputersCanvas } from "./canvas";
+import Link from "next/link";
+import MotionArrow from "./MotionArrow";
 
 const Hero = () => {
   return (
@@ -27,6 +28,14 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas />
+
+      <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-32">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <MotionArrow />
+          </div>
+        </a>
+      </div>
     </section>
   );
 };

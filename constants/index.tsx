@@ -15,14 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  pokemon,
+  liberet,
+  foodapp,
+  shortenurl,
+  interactivemap,
 } from "@/assets";
 
 export const navLinks = [
@@ -54,7 +51,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Game Developer",
     icon: creator,
   },
 ];
@@ -77,7 +74,7 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
@@ -97,10 +94,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -116,55 +109,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Liberet - Menú Local - Full Time",
+    icon: liberet,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborate with the team to develop new features, fix bugs, and optimize performance.",
+      "Integrate APIs and improve data management for a seamless user experience.",
+      "Develop and maintain automated testing suites for stability and reliability.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "React Developer",
+    company_name: "Liberet - Bricksell - Part Time",
+    icon: liberet,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborate with designers and stakeholders to define requirements and develop a user-friendly marketplace website.",
+      "Write clean, maintainable, and scalable code using Next.js and TypeScript",
+      "Develop and integrate with RESTful APIs and microservices.",
+      "Perform code reviews, testing, and debugging.",
+      "Continuously improve and optimize website performance.",
     ],
   },
 ];
@@ -198,30 +165,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Food App Demo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to order food from their favorite restaurants and have it delivered to their door.",
     tags: [
       {
         name: "react",
@@ -232,33 +178,67 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: foodapp,
+    website_link: "https://chistoperez.github.io/Liberet-app/",
+    source_code_link: "https://github.com/chistoperez/Liberet-app",
   },
   {
-    name: "Trip Guide",
+    name: "URL Shortener",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that allows users to shorten long URLs and share them with others. Applying session management, and user authentication.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shortenurl,
+    website_link: "https://react-cpp.firebaseapp.com/",
+    source_code_link: "https://github.com/chistoperez/React-firebase",
+  },
+  {
+    name: "Interactive Map",
+    description:
+      "This website uses an interactive map to display animals from the International Union for Conservation of Nature (IUCN) Red List.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: interactivemap,
+    website_link: "https://chistoperez.github.io/InteractiveMap/",
+    source_code_link: "https://github.com/chistoperez/InteractiveMap",
+  },
+  {
+    name: "Pokemon API",
+    description:
+      "Web application that allows users to search for pokemon and see their information.",
+    tags: [
+      {
+        name: "vue",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+    ],
+    image: pokemon,
+    website_link: "https://chistoperez.github.io/pokedex/",
+    source_code_link: "https://github.com/chistoperez/pokedex",
   },
 ];
 
