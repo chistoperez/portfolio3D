@@ -12,7 +12,11 @@ import { StaticImageData } from "next/image";
 
 import CanvasLoader from "../Loader";
 
-const Ball = (props) => {
+type Props = {
+  imgUrl: StaticImageData;
+};
+
+const Ball = (props: Props) => {
   // const [decal] = useTexture([props.imgUrl]);
 
   return (
