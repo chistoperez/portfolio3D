@@ -28,7 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/canvas/Stars.jsx"
+    "components/canvas/Stars.jsx",
+    "components/canvas/Computers.jsx"
   ],
   "exclude": ["node_modules"]
 }
