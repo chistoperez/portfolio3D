@@ -24,7 +24,7 @@ import threejs from "./tech/threejs.svg";
 
 import menulocal from "./company/menulocal.png";
 import liberet from "./company/liberet.png";
-
+import inspirohub from "./inspirohub.png";
 import foodapp from "./foodapp.png";
 import shortenurl from "./shortenurl.png";
 import interactivemap from "./interactivemap.png";
@@ -57,6 +57,7 @@ export {
   liberet,
   pokemon,
   foodapp,
+  inspirohub,
   shortenurl,
   interactivemap,
 };

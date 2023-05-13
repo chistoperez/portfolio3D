@@ -18,6 +18,7 @@ import {
   pokemon,
   liberet,
   foodapp,
+  inspirohub,
   shortenurl,
   interactivemap,
 } from "@/assets";
@@ -110,28 +111,30 @@ const technologies = [
 const experiences = [
   {
     title: "React Native Developer",
-    company_name: "Liberet - Menú Local - Full Time",
+    company_name: "Liberet - Fuddis - Full Time",
     icon: liberet,
     iconBg: "#383E56",
-    date: "August 2022 - Present",
+    date: "August 2022 - Jan 2023",
     points: [
-      "Collaborate with the team to develop new features, fix bugs, and optimize performance.",
-      "Integrate APIs and improve data management for a seamless user experience.",
-      "Develop and maintain automated testing suites for stability and reliability.",
+      " Developed a feature that allows food sellers to share shipping costs with customers, resulting in a 50% sales increase.",
+
+      "Developed referral codes that incentivize customers to share their codes with friends, resulting in over 500 new app downloads.",
+
+      "Conducted a thorough code cleanup, optimizing images and removing deprecated code and unused files and components, resulting in a 30% reduction in app size. Additionally, the initial load time has been significantly improved, resulting in a faster, more seamless experience for users.",
+
+      "Implemented Stripe services to create a seller wallet and enable payout processing directly to seller accounts, streamlining the payment process and providing more flexibility for sellers.",
+
+      "Implemented an onApp update feature that ensures users always have the latest version of the app, allowing for improved functionality and an overall better user experience.",
     ],
   },
   {
-    title: "React Developer",
-    company_name: "Liberet - Bricksell - Part Time",
+    title: "Next.js / React Developer",
+    company_name: "Liberet - Bricksell - Full Time",
     icon: liberet,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Collaborate with designers and stakeholders to define requirements and develop a user-friendly marketplace website.",
-      "Write clean, maintainable, and scalable code using Next.js and TypeScript",
-      "Develop and integrate with RESTful APIs and microservices.",
-      "Perform code reviews, testing, and debugging.",
-      "Continuously improve and optimize website performance.",
+      "I developed from scratch a robust web application that transforms the house-hunting experience for users. This application streamlines the house-buying process, providing users with a one-stop-shop for finding and scheduling visits to their dream homes. The advanced features and performance optimization set this application apart from traditional house marketplaces, making it a standout in the industry.",
     ],
   },
 ];
@@ -164,6 +167,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "InspiroHub",
+    description:
+      "Web application that allows users to discover, create and share creative prompts.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: inspirohub,
+    website_link: "https://inspirohub.vercel.app/",
+    source_code_link: "https://github.com/chistoperez/InspiroHub",
+  },
   {
     name: "Food App Demo",
     description:
