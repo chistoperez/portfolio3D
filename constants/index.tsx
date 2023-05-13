@@ -116,7 +116,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2022 - Jan 2023",
     points: [
-      " Developed a feature that allows food sellers to share shipping costs with customers, resulting in a 50% sales increase.",
+      " Developed a feature that allows food sellers to share shipping costs with customers, resulting in a 15% sales increase.",
 
       "Developed referral codes that incentivize customers to share their codes with friends, resulting in over 500 new app downloads.",
 
